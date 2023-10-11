@@ -2,13 +2,18 @@
   background-color: rgba(85, 107, 47, 1);
 }
 
-.nav-link {
+.my-nav-link {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-weight: bold;
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   text-underline-offset: 0.15em;
   transition: text-decoration-color 300ms;
+}
+
+.my-nav-link:hover {
+  cursor: pointer;
+  text-decoration-color: rgba(255, 255, 255, 1);
 }
 
 .nav-link:hover {
