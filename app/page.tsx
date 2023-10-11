@@ -12,13 +12,12 @@ export default function Home() {
       </Head>
       <MyCarousel />
       <Navbar />
-      <div className="container-fluid m-1">
-        <div className="row my-5">
-          <div className="col-sm-1"></div>
-          <div className="col-sm-5">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm py-3">
             <img src="/images/haz1.jpeg" className="w-100 rounded"></img>
           </div>
-          <div className="col-sm-5">
+          <div className="col-sm py-3">
             <h1>Kis szállás</h1>
             <p className="text-justify">
               Üdvözöljük az új kalandban! Üljön vissza, lazítson, és engedje,
@@ -44,11 +43,9 @@ export default function Home() {
               LEFOGLALOM
             </a>
           </div>
-          <div className="col-sm-1"></div>
         </div>
-        <div className="row my-5">
-          <div className="col-sm-1"></div>
-          <div className="col-sm-5">
+        <div className="row">
+          <div className="col-sm py-3">
             <h1>Kutyabarát szálláshely</h1>
             <p className="text-justify">
               Itt mindenki négy lábon járó barátja szívesen látott vendég.
@@ -70,13 +67,12 @@ export default function Home() {
               várjuk Önt és kedvencét kutyabarát szálláshelyünkön!
             </p>
           </div>
-          <div className="col-sm-5">
+          <div className="col-sm py-3">
             <img src="/images/haz2.jpeg" className="w-100 rounded"></img>
           </div>
-          <div className="col-sm-1"></div>
         </div>
-        <div className="row m-lg-5">
-          <div className="col-sm-4 p-lg-5 my-2">
+        <div className="row">
+          <div className="col-sm py-3">
             <Card
               title={"Környék"}
               text={"ASDfasdlkfsa kfakjsdfkl askldf ;k"}
@@ -85,7 +81,7 @@ export default function Home() {
               link="https://nagyborzsony.hu/turizmus/"
             />
           </div>
-          <div className="col-sm-4 p-lg-5 my-2">
+          <div className="col-sm py-3">
             <Card
               title={"Programok"}
               text={"ASDfasdlkfsa kfakjsdfkl askldf ;k asdf"}
@@ -94,7 +90,7 @@ export default function Home() {
               link="https://turizmus.com/cimke/B%C3%B6rzs%C3%B6ny"
             />
           </div>
-          <div className="col-sm-4 p-lg-5 my-2">
+          <div className="col-sm py-3">
             <Card
               title={"Különlegességek"}
               text={"ASDfasdlkas asfdfsa kfakjssdf asdfdfkl askldf ;k"}

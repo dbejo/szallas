@@ -10,17 +10,14 @@ export default function Rooms() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Navbar />
-      <div className="container-fluid m-1">
-        <div className="row mt-5">
-          <div className="col-sm-2"></div>
-          <div className="col-sm-8">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm pt-3">
             <h1>Szobáink</h1>
           </div>
-          <div className="col-sm-2"></div>
         </div>
-        <div className="row my-5">
-          <div className="col-sm-2"></div>
-          <div className="col-sm-8">
+        <div className="row">
+          <div className="col-sm py-3">
             <RoomCard
               id="bedRoom1"
               title={"Standard egyágyas szoba"}
@@ -37,11 +34,9 @@ export default function Rooms() {
               bed={"1db franciaágy (160cm x 200cm)"}
             />
           </div>
-          <div className="col-sm-2"></div>
         </div>
-        <div className="row my-5">
-          <div className="col-sm-2"></div>
-          <div className="col-sm-8">
+        <div className="row">
+          <div className="col-sm py-3">
             <RoomCard
               id="bedRoom2"
               title={"Standard kétágyas szoba"}
@@ -60,7 +55,6 @@ export default function Rooms() {
               }
             />
           </div>
-          <div className="col-sm-2"></div>
         </div>
       </div>
       <Footer />

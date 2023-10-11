@@ -8,18 +8,24 @@ export default function Card({
   title: string;
   text: string;
   image: string;
-  linkText: string;
-  link: string;
+  linkText?: string;
+  link?: string;
 }) {
+  let button;
+  if (link && linkText) {
+    button = (
+      <a href={link} className="btn btn-outline-dark">
+        {linkText}
+      </a>
+    );
+  }
   return (
     <div className="card h-100">
       <img src={image} className="card-img-top" />
       <div className="card-body">
-        <h1 className="card-title">{title}</h1>
+        <h2 className="card-title">{title}</h2>
         <p className="card-text">{text}</p>
-        <a href={link} className="btn btn-outline-dark">
-          {linkText}
-        </a>
+        {button}
       </div>
     </div>
   );
