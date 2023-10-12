@@ -25,9 +25,10 @@ export default function Rooms() {
                 "Modern és fiatalos egyágyas szobáinkban az egyedül érkező vendégeik is komfortosan érezhetik magukat, a minőségi pihenés érdekében 160*200 cm-es ágy található szobáinkban. "
               }
               images={[
-                "/images/haz1.jpeg",
-                "/images/haz2.jpeg",
-                "/images/haz3.jpeg",
+                "/images/szoba1/kep1.jpeg",
+                "/images/szoba1/kep2.jpeg",
+                "/images/szoba1/kep3.jpeg",
+                "/images/szoba1/kep4.jpeg",
               ]}
               size={"15-18"}
               capacity={1}
@@ -41,12 +42,15 @@ export default function Rooms() {
               id="bedRoom2"
               title={"Standard kétágyas szoba"}
               text={
-                "Modern és fiatalos Standard szobáinkban kényelmesen érezhetik magukat vendégeink akár a franciaágyas akár a két egyszemélyes ággyal rendelkező lehetőséget választják, szobáinkból élvezhetik a nyüzsgő Nyugati pályaudvarra és környékére nyíló kilátást. "
+                "Modern és fiatalos Standard szobáinkban kényelmesen érezhetik magukat vendégeink akár a franciaágyas akár a két egyszemélyes ággyal rendelkező lehetőséget választják, szobáinkból élvezhetik a nyugodt Ipolyra és környékére nyíló kilátást. "
               }
               images={[
-                "/images/haz2.jpeg",
-                "/images/haz1.jpeg",
-                "/images/haz3.jpeg",
+                "/images/szoba2/kep1.jpeg",
+                "/images/szoba2/kep2.jpeg",
+                "/images/szoba2/kep3.jpeg",
+                "/images/szoba2/kep4.jpeg",
+                "/images/szoba1/kep3.jpeg",
+                "/images/szoba1/kep4.jpeg",
               ]}
               size={"16-20"}
               capacity={2}

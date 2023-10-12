@@ -14,15 +14,15 @@ export default function Card({
   let button;
   if (link && linkText) {
     button = (
-      <a href={link} className="btn btn-outline-dark">
+      <a href={link} className="btn btn-outline-dark mt-auto align-self-start">
         {linkText}
       </a>
     );
   }
   return (
-    <div className="card h-100">
+    <div className="card">
       <img src={image} className="card-img-top" />
-      <div className="card-body">
+      <div className="card-body d-flex flex-column">
         <h2 className="card-title">{title}</h2>
         <p className="card-text">{text}</p>
         {button}

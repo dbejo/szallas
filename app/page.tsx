@@ -68,33 +68,39 @@ export default function Home() {
             </p>
           </div>
           <div className="col-sm py-3">
-            <img src="/images/haz2.jpeg" className="w-100 rounded"></img>
+            <img src="/images/kutya.jpeg" className="w-100 rounded"></img>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm py-3">
+          <div className="col-sm py-3 d-flex align-items-stretch">
             <Card
               title={"Környék"}
-              text={"ASDfasdlkfsa kfakjsdfkl askldf ;k"}
-              image={"/images/haz1.jpeg"}
+              text={
+                "Ismerd meg a, ahol lenyűgöző táj, történelem és természeti csodák várnak rád!"
+              }
+              image={"/images/dunakanyar.jpeg"}
               linkText="FEDEZZ FEL"
               link="https://nagyborzsony.hu/turizmus/"
             />
           </div>
-          <div className="col-sm py-3">
+          <div className="col-sm py-3 d-flex align-items-stretch">
             <Card
               title={"Programok"}
-              text={"ASDfasdlkfsa kfakjsdfkl askldf ;k asdf"}
-              image={"/images/haz2.jpeg"}
+              text={
+                "Fedezzed fel izgalmasprogramjainkat, melyek kalandra és felfedezésre hívnak!"
+              }
+              image={"/images/kajak.jpeg"}
               linkText="ÉRDEKEL"
               link="https://turizmus.com/cimke/B%C3%B6rzs%C3%B6ny"
             />
           </div>
-          <div className="col-sm py-3">
+          <div className="col-sm py-3 d-flex align-items-stretch">
             <Card
               title={"Különlegességek"}
-              text={"ASDfasdlkas asfdfsa kfakjssdf asdfdfkl askldf ;k"}
-              image={"/images/haz3.jpeg"}
+              text={
+                "Ismerd meg a Börzsöny különlegességeit, melyek garantáltan feledhetetlen élményekkel ajándékoznak meg!"
+              }
+              image={"/images/tura.jpeg"}
               linkText="MEGNÉZEM"
               link="https://csodahelyek.hu/2021/01/10/borzsony-latnivalok/"
             />

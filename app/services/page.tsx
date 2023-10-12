@@ -30,31 +30,31 @@ export default function Services() {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm py-3">
+          <div className="col-sm py-3 d-flex align-items-stretch">
             <Card
               title={"Kajak-kenu bérlés"}
               text={
                 "Szeretnénk, ha a vízen való kaland közben semmi sem állna az útjába, és ezért kajak és kenu berles szolgáltatásunk áll rendelkezésére, hogy a természet szépségeit könnyedén felfedezhesse."
               }
-              image={"/images/haz1.jpeg"}
+              image={"/images/kajak.jpeg"}
             />
           </div>
-          <div className="col-sm py-3">
+          <div className="col-sm py-3 d-flex align-items-stretch">
             <Card
               title={"Túra a hegyekben"}
               text={
                 "Csatlakozzon hozzánk egy izgalmas túrára a hegyek között, ahol a lélegzetelállító kilátások és az élmények örök emlékké válnak."
               }
-              image={"/images/haz2.jpeg"}
+              image={"/images/remetebarlang.webp"}
             />
           </div>
-          <div className="col-sm py-3">
+          <div className="col-sm py-3 d-flex align-items-stretch">
             <Card
-              title={"Túra a hegyekben"}
+              title={"Horgászat"}
               text={
                 "Tapasztalja meg a csendet és a nyugalmat egy horgászat program keretében, ahol a tóparti idill és a horgászat öröme várja Önt."
               }
-              image={"/images/haz3.jpeg"}
+              image={"/images/flyfishing.jpeg"}
             />
           </div>
         </div>
