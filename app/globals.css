@@ -21,8 +21,22 @@
   text-decoration-color: rgba(255, 255, 255, 1);
 }
 
+.carousel-inner {
+  height: 0;
+  padding: 25%;
+}
+
+.carousel-item {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .carousel-item img {
   object-fit: cover;
+  height: 100%;
   max-height: 100vh;
 }
 
