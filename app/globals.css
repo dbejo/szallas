@@ -23,7 +23,7 @@
 
 .carousel-inner {
   height: 0;
-  padding: 25%;
+  padding-bottom: 60vh;
 }
 
 .carousel-item {
