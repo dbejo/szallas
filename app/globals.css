@@ -39,6 +39,10 @@
   height: 100%;
 }
 
+.carousel-caption {
+  text-shadow: 0 0 0.75rem #000;
+}
+
 .carousel-item-room img {
   object-fit: cover;
   max-height: 45vh;
