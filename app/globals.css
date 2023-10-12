@@ -37,7 +37,6 @@
 .carousel-item img {
   object-fit: cover;
   height: 100%;
-  max-height: 100vh;
 }
 
 .carousel-item-room img {
