@@ -34,7 +34,7 @@ export default function Services() {
             <Card
               title={"Kajak-kenu bérlés"}
               text={
-                "Szeretnénk, ha a vízen való kaland közben semmi sem állna az útjába, és ezért kajak és kenu berles szolgáltatásunk áll rendelkezésére, hogy a természet szépségeit könnyedén felfedezhesse."
+                "Szeretnénk, ha a vízen való kaland közben semmi sem állna az útjába, és ezért kajak és kenu bérlés szolgáltatásunk áll rendelkezésére, hogy a természet szépségeit könnyedén felfedezhesse."
               }
               image={"/images/kajak.jpeg"}
             />
@@ -52,7 +52,7 @@ export default function Services() {
             <Card
               title={"Horgászat"}
               text={
-                "Tapasztalja meg a csendet és a nyugalmat egy horgászat program keretében, ahol a tóparti idill és a horgászat öröme várja Önt."
+                "Tapasztalja meg a csendet és a nyugalmat egy horgászat program keretében, ahol a folyóparti idill és a horgászat öröme várja Önt."
               }
               image={"/images/flyfishing.jpeg"}
             />
